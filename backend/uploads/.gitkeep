@@ -1,0 +1,6 @@
+# Uploaded files directory
+# This directory stores evidence files uploaded by students for their activities
+# Files are served through the /api/files endpoint
+
+# Add a .gitkeep to ensure the directory is tracked by Git
+# but ignore actual uploaded files for security and space reasons
