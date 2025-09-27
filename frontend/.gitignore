@@ -1,0 +1,64 @@
+# Node and build output
+node_modules/
+dist/
+build/
+.cache/
+.temp/
+.tmp/
+coverage/
+
+# Vite and dev server
+.vite/
+.vite-deps/
+*.local
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+**/debug.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Typescript
+*.tsbuildinfo
+
+# ESLint/Prettier caches
+.eslintcache
+.prettier-cache/
+
+# Storybook
+.storybook-out/
+out/
+
+# Testing
+jest-cache/
+jest-report/
+.cypress/
+
+# Images/build artifacts
+*.zip
+*.tgz
+
+# Tailwind JIT cache
+.tailwindcss/
+
+# React
+*.log
